@@ -1,0 +1,91 @@
+h4 {
+  color: #2b2b2b;
+  font-weight: bold;
+}
+
+p {
+  color: 	#969696;
+}
+
+
+.results {
+  font-weight: bold;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: -4%;
+}
+
+
+.results .row {
+  padding: 2% 2%;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+
+.location, .ip, .timezone {
+  border-right: solid thin 	#969696;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .results {
+    margin-top: -35%;
+    margin-left: 2%;
+    text-align: center;
+  }
+  .results .row {
+    padding: 4% 2%;
+  }
+  .location, .ip, .timezone {
+    border-right: none;
+    margin-bottom: 8%;
+  }
+  .results .row {
+    padding: 3% 2%
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  h4 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .results {
+    margin-top: -5%;
+    margin-left: 3%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .results {
+    margin-top: -8%;
+    margin-left: 12%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .results {
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .results {
+    margin-top: -3%;
+    margin-left: 12%;
+  }
+}
